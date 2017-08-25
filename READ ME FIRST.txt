@@ -1,0 +1,31 @@
+Add these two libraries to "My Documents>Arduino folder>libraries folder
+
+1.Arduino-Temperature-Control-Library-master.zip
+Link Address: https://github.com/milesburton/Arduino-Temperature-Control-Library
+
+Change the folder name
+From: "Arduino-Temperature-Control-Library-master "folder
+To: "Dallas Temperature" folder
+
+2.OneWire.zip (for the latest OneWire library of arduino)
+Link Address: http://playground.arduino.cc/Learning/OneWire
+
+- you may backup first the old one from the arduino libraries..
+Then place this new one and use the sample code below.
+
+
+Open the sample code: DS18x20_Temperature.ino/pde
+
+// OneWire DS18S20, DS18B20, DS1822 Temperature Example
+//
+// http://www.pjrc.com/teensy/td_libs_OneWire.html
+//
+// The DallasTemperature library can do all this work for you!
+// http://milesburton.com/Dallas_Temperature_Control_Library
+
+Wiring Connections:
+DS18B20 Temperature sensor   -   Gizduino
+RED wire ------------------>   +5V  ----> 4.7K ohms ----> BLUE wire
+BLACK wire ---------------> Ground
+
+
